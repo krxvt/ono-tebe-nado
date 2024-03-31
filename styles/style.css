@@ -59,7 +59,6 @@
   flex-wrap: wrap;
   font-weight: 400;
   font-size: 18px;
-  line-height: normal;
   max-width: 238px;
   font-style: normal;
   line-height: 24.3px;
@@ -163,6 +162,8 @@
 .lots_card-link {
   display: block;
   height: 100%;
+  text-decoration: none;
+  height: 100%;
 }
 .lot_title {
   font-size: 22px;
@@ -206,10 +207,6 @@
   background-image: url("../images/card-lot-03.jpg");
 }
 
-.lots_card-link {
-  text-decoration: none;
-  height: 100%;
-}
 /*overlay*/
 .card .overlay {
   display: flex;
